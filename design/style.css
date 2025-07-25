@@ -9,9 +9,9 @@ html {
 }
 
 body {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .container {
   width: 275px;
