@@ -17,9 +17,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+This is a simple solution to the QR code component challenge by Frontend Mentor. The project consists of a card component with a centered QR code and some descriptive text. It was built with semantic HTML and CSS, following a mobile-first approach. It helped me strengthen my layout and styling skills using Flexbox and custom properties.
+
 ### Screenshot
 
-![Screenshot of the project](./screenshot.jpg)
+![Screenshot of the project](./screenshot.png)
 
 ### Links
 
@@ -27,6 +29,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Live Site URL: [https://claracayres.github.io/dev-practice/](https://claracayres.github.io/dev-practice/)
 
 ## My process
+
+I built the layout using semantic HTML and styled it with CSS and Flexbox. I initially had trouble importing the font because I used the wrong Google Fonts link, but fixed it by updating the <link> tag. Then I adjusted spacing, colors, and typography to match the design.
 
 ### Built with
 
@@ -40,4 +44,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 This project helped me reinforce the importance of semantic HTML structure and responsive layout with Flexbox. I also practiced importing Google Fonts and organizing a simple component visually centered on the screen.
 
 ```html
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+```
