@@ -20,6 +20,10 @@ This is a simple solution to the QR code component challenge by Frontend Mentor.
 
 ![Screenshot of the project](images/screenshot.png)
 
+#### Mobile
+
+![Screenshot Mobile of the project](images/screenshot-mobile.png)
+
 ### Links
 
 - Solution URL: [https://github.com/claracayres/dev-practice](https://github.com/claracayres/dev-practice)
@@ -46,5 +50,6 @@ This project helped me reinforce the importance of semantic HTML structure and r
   rel="stylesheet"
 />
 ```
+
 👩‍💻 Author
 Made with 💙 by Clara Cayres
