@@ -21,8 +21,7 @@ This is a simple solution to the QR code component challenge by Frontend Mentor.
 ![Screenshot of the project](images/screenshot.png)
 
 #### Mobile
-
-![Screenshot Mobile of the project](images/screenshot-mobile.png)
+<img src="images/screenshot-mobile.png" alt="Screenshot Mobile of the project" width="200"/>
 
 ### Links
 
