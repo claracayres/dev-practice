@@ -1,25 +1,30 @@
 :root {
   --border-radius: 8px;
+  --p-font-size: 16px;
+  --h3-font-size: 22px;
 }
 html {
   background-color: #d5e1ef;
-  height: 100%;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   font-family: "Outfit", sans-serif;
+  padding: 20px;
 }
-
 body {
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-items: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container {
   width: 100%;
-  max-width: 275px;
+  max-width: 320px;
   height: auto;
+  margin: 0 auto;
   padding: 15px;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -28,35 +33,47 @@ body {
 .qr-image {
   display: flex;
   justify-content: center;
-  align-items: center;
-  justify-self: center;
   margin-bottom: 20px;
   width: 100%;
-  height: 100%;
   border-radius: var(--border-radius);
 }
 .qr-text {
   text-align: center;
-  font-size: 16px;
   font-family: "Outfit", sans-serif;
   margin: 0 7px;
 }
 .qr-text h3 {
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: var(--h3-font-size);
   color: #1f314f;
 }
 .qr-text p {
-  font-size: 15px;
+  font-size: var(--p-font-size);
   color: #68778d;
 }
-
 .attribution {
-  position: absolute;
-  bottom: 10px;
   font-size: 11px;
   text-align: center;
+  position: relative;
+  margin-top: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  html {
+    padding: 10px;
+  }
+  .container {
+    max-width: 80%;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+  }
+  h1 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.7em;
+  }
 }
